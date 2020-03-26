@@ -1,8 +1,30 @@
 h1 {
     color: orange;
     text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
 }
 p {
     color: gray;
     text-align: justify;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+    width: 50%;
+    font-weight: bold;
+}
+
+th {
+    border: 1px solid #454545;
+    
+    padding: 5px;
+}
+
+td {
+    border: .1px solid gray;
+    color: grey;
+    
 }
